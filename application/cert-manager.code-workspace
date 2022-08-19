@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../cert-manager"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../libraries.orchestrators.resourcemanagement.controlplane.daemon"
+		}
+	],
+	"settings": {}
+}
