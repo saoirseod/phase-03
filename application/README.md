@@ -4,3 +4,5 @@ so far, to run dockerfile use
 docker build --build-arg http_proxy=http://proxy.ch.intel.com:911/ -t saoirseod/rpi-hostname:latest -f docker/Dockerfile .
 or
 include --build-arg https_proxy=http://proxy.ch.intel.com:911/ also
+
+golang-app .yaml files still to be udited, error with pods running
