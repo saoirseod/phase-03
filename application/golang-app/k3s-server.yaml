@@ -1,0 +1,40 @@
+#server yaml
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: k3s-server
+#   namespace: default
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: k3s-server
+#   template:
+#     metadata:
+#       labels:
+#         app: k3s-server
+#     spec:
+#       containers:
+#       - name: k3s-server
+#         image: saoirseod/rpi-hostname:latest
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-deployment
+  labels:
+    app: k3s-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k3s-server
+  template:
+    metadata:
+      labels:
+        app: k3s-server
+    spec:
+      containers:
+      - name: k3s-server
+        image: saoirseod/rpi-hostname:latest
+        ports:
+        - containerPort: 9000
