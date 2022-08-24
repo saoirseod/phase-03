@@ -8,7 +8,7 @@ docker build --build-arg http_proxy=http://proxy.ch.intel.com:911/ -t saoirseod/
 
 or
 
-include '--build-arg https_proxy=http://proxy.ch.intel.com:911/ also'
+include '--build-arg https_proxy=http://proxy.ch.intel.com:911/' also
 
 Then to retag the image:
 
