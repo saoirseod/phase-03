@@ -1,6 +1,5 @@
 # phase-03
-integration 
-Oulines the changes made to link up cert generation script to repo for internal use 
+integration process, outlining the changes made to link up cert generation script to repo for internal use 
 
 pods still not in running state so sectrets have not been created and mounted:
 next steps for creating a secret, and then to mount:
