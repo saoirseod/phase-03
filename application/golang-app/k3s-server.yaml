@@ -16,7 +16,7 @@
 #     spec:
 #       containers:
 #       - name: k3s-server
-#         image: saoirseod/rpi-hostname:latest
+#         image: saoirseod/rpi-hostname:v1
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -35,6 +35,6 @@ spec:
     spec:
       containers:
       - name: k3s-server
-        image: saoirseod/rpi-hostname:latest
+        image: saoirseod/rpi-hostname:v1
         ports:
         - containerPort: 9000
