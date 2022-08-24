@@ -20,6 +20,7 @@ spec:
       containers:
       - name: k3s-client
         image: saoirseod/rpi-hostname:v1
+        imagePullPolicy: "Always"
         ports: 
         - containerPort: 9000
         #80
