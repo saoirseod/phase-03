@@ -1,5 +1,7 @@
 //combined application with server and client, using flags and assigned port in struct to start application, file should be a single executable, not two seperate client and server files
 //alterations to be made, client working?
+//NOTE: pods not in running state until this compiles, reading in of old cert files to be removed once secrets are mounted!
+
 package main
 
 import (
